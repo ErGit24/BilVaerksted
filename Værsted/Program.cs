@@ -103,7 +103,7 @@ class Program
             (bil.Mærke.Equals("Alfa Romeo", StringComparison.OrdinalIgnoreCase) &&
              bil.Model.Equals("Giulia", StringComparison.OrdinalIgnoreCase)))
         {
-            WriteLine("\nBilen skal til syn");
+            WriteLine("\nBILEN SKAL TIL SYN!");
 
             if (bil.Model.Equals("Punto", StringComparison.OrdinalIgnoreCase))
             {
@@ -128,7 +128,7 @@ class Program
         }
         else if (TidTilSyn(bil))
         {
-            return "\nBilen skal til syn";
+            return "\nBILEN SKAL TIL SYN!";
         }
         else
         {
